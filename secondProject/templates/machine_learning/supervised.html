@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML,Supervised</title>
+</head>
+<body>
+    {% extends 'common_code/base.html' %}
+    {% block content %}
+        <h1>we are in Machine Learning apps and in Supervised function </h1>
+        <h2>This is h2</h2>
+        <p>This is p</p>
+        <p>Here we are some useful tags
+            <b>This is in bold </b> used b tag <br>
+            <strong>This is strong  </strong>used strong tag <br>
+            <mark>This is in mark </mark> used mark tag <br>
+            <i>This is in italic</i> used i tag <br>
+            previous price:<del>500</del>(used 'del' tag) updated price: <ins>350</ins> (used 'ins' tag) <br>
+            <abbr title="Here we are in abbr tag. Details we have to write in title and smal shortcut display portion types in outside title">abbr</abbr> <br>
+        </p>
+        <p>This is in another p
+            this is (a+b)2 <br>
+            to write like this (a+b)<sup>2</sup> use 'sup' tag
+        </p>
+        <p>
+            this H2O <br>
+            to write it like H<sub>2</sub>O this use 'sub' tag
+        </p>
+        <p>
+            Sayem, Tasin, Muntaha, Rafiq, Safiq To write this like as you want like this we need to use 'div' and 'pre' tag
+
+        </p>
+        <div>
+            <pre>
+                sayem           Tasin
+                    Muntaha
+                Rafiq , safiq
+            </pre>
+        </div>
+        <div>This is in new div <br>
+            to use unorderd list use 'ul' tag and for list 'li' <br>
+            <ul style="list-style-type: lower-latin;">
+                <li>CSE</li>
+                <li>EEE</li>
+                <li>ME</li>
+                <li>ECE</li>
+            </ul>
+            <p>
+                To use orderd list use 'ol' tag 
+                <ol>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Reinforcement Learning</li>
+                </ol>
+            </p>
+        </div>
+        <form>
+            use form tag for input <br>
+            <input type="text" name="" id="" placeholder="Enter Name">use 'input and type = text for text field' <br><br>
+            <input type="email" name="" id="" placeholder="Email"> use input and type = email <br><br>
+            <input type="password" name="" id="" placeholder="password"> use input and type = password <br><b></b>
+            input and type = radio for single choice also use sure name is same for all radio <br><br>
+            In this case name = Gender <br><br>
+            <input type="radio" name="Gender" id=""> Male <br> <br>
+            <input type="radio" name="Gender" id=""> Female <br><br>
+
+            For multiple choice use type = checkbox <br><br>
+            <input type="checkbox" name="" id="">One <br><br>
+            <input type="checkbox" name="" id="">Two <br><br>
+            <input type="checkbox" name="" id="">Three <br><br>
+
+
+        </form>
+        input type = submit for submission <br>
+        <input type="submit" value="Submit">
+
+    {% endblock content %}
+</body>
+</html>
