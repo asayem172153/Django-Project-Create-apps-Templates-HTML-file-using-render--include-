@@ -73,7 +73,7 @@ To get started with this project:
 For any inquiries, feel free to reach out:
 
 - **Email**: abusayem379@gmail.com
-- **LinkedIn**: [Abu Sayem]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/abusayem172153/))
+- **LinkedIn**: [Abu Sayem]([https://www.linkedin.com/in/abusayem172153/])
 
 ---
 
